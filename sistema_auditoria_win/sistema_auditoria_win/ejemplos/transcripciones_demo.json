@@ -1,0 +1,128 @@
+[
+ {
+  "id": "DEMO-1",
+  "titulo": "Venta bien conducida",
+  "es_venta": true,
+  "datos_sistema": {
+   "registro_inconcert": true,
+   "registro_portabilidad": true
+  },
+  "transcripcion": "ASESOR: Buenas tardes, le saluda Carla de WIN, ¿cómo se encuentra el día de hoy?\nCLIENTE: Buenas tardes, bien gracias. Quería información de internet.\nASESOR: Con gusto le ayudo. Para verificar la cobertura, ¿me indica su dirección y en qué distrito vive?\nCLIENTE: Av. Los Olivos 345, en Los Olivos.\nASESOR: Perfecto, tenemos factibilidad en su zona. ¿Qué servicio tiene actualmente y cuánto paga?\nCLIENTE: Tengo otro operador, pago 90 soles por 100 megas.\nASESOR: Entiendo. ¿Y cuántas personas viven con usted y para qué usan el internet, teletrabajo o series?\nCLIENTE: Somos cuatro, hay teletrabajo y mis hijos ven series.\nASESOR: Imagine trabajar en videollamadas sin cortes mientras sus hijos disfrutan sus series al mismo tiempo. Le recomiendo el plan de 500 Mbps con WIN TV a 89 soles mensuales, con router WiFi incluido, instalación sin costo, sin permanencia y su primer recibo llegará con el cargo proporcional.\nCLIENTE: Es un poco caro, lo voy a pensar.\nASESOR: Entiendo su preocupación. Le puedo ofrecer un descuento de 20 soles los primeros tres meses y es un ahorro frente a lo que paga hoy. ¿Qué le parece?\nCLIENTE: Ah, así sí me conviene. Acepto.\nASESOR: Excelente. Para registrar la solicitud, ¿es usted el titular? Me indica su DNI y su correo, por favor.\nCLIENTE: Sí, soy el titular. Mi DNI es 45678901 y mi correo es carlos@mail.com.\nASESOR: Entonces queda confirmado el plan de 500 Mbps. ¿Está de acuerdo y le quedó claro todo? Procedemos con el registro y coordinamos la instalación.\nCLIENTE: Sí, de acuerdo, adelante.\nASESOR: Le voy a leer los términos y condiciones. Listo, quedó registrado. Muchas gracias por su preferencia, que tenga una excelente tarde.\nCLIENTE: Gracias, igualmente.",
+  "gold": {
+   "saludo": "SI",
+   "cobertura": "SI",
+   "actitud": "SI",
+   "sondeo": "SI",
+   "escucha": "SI",
+   "beneficios": "SI",
+   "alternativa": "SI",
+   "objeciones": "SI",
+   "aseguramiento": "SI",
+   "informacion": "SI",
+   "cierre": "SI",
+   "prevalidacion": "SI",
+   "inconcert": "SI",
+   "portabilidad": "SI",
+   "despedida": "SI"
+  }
+ },
+ {
+  "id": "DEMO-2",
+  "titulo": "Venta con fallas (sin sondeo, beneficios ni despedida)",
+  "es_venta": true,
+  "datos_sistema": {
+   "registro_inconcert": true,
+   "registro_portabilidad": false
+  },
+  "transcripcion": "ASESOR: Hola, dígame.\nCLIENTE: Hola, quiero contratar internet para mi casa en San Juan de Lurigancho.\nASESOR: El plan de 300 Mbps cuesta 79 soles al mes.\nCLIENTE: Está bien, lo tomo.\nASESOR: ¿Es usted el titular? Su nombre completo y su DNI.\nCLIENTE: Marco Díaz, 40111222, sí soy el titular.\nASESOR: Listo, ya está registrado.\nCLIENTE: Gracias.\nASESOR: Chau.",
+  "gold": {
+   "saludo": "NO",
+   "cobertura": "NO",
+   "actitud": "NO",
+   "sondeo": "NO",
+   "escucha": "NO",
+   "beneficios": "NO",
+   "alternativa": "NO",
+   "objeciones": "No Aplica",
+   "aseguramiento": "NO",
+   "informacion": "NO",
+   "cierre": "NO",
+   "prevalidacion": "SI",
+   "inconcert": "SI",
+   "portabilidad": "NO",
+   "despedida": "NO"
+  }
+ },
+ {
+  "id": "DEMO-3",
+  "titulo": "No venta: objeción de precio bien manejada",
+  "es_venta": false,
+  "datos_sistema": {},
+  "transcripcion": "ASESOR: Buenos días, le habla Luis de WIN. ¿Cómo está?\nCLIENTE: Bien, quisiera saber de los planes.\nASESOR: Con gusto. ¿En qué distrito está su domicilio? Verifico la cobertura.\nCLIENTE: En Surco.\nASESOR: Tenemos cobertura. ¿Qué servicio tiene actualmente y cuántos dispositivos usan?\nCLIENTE: Tengo otro operador, unos seis dispositivos.\nASESOR: Entiendo, por lo que me comenta necesita estabilidad. ¿Y para qué lo usan más, juegos o teletrabajo?\nCLIENTE: Teletrabajo sobre todo.\nASESOR: Imagine trabajar sin cortes todo el día. Le recomiendo el plan de 300 Mbps a 79 soles mensuales con router incluido.\nCLIENTE: Me parece caro, lo voy a pensar y consultar con mi esposa.\nASESOR: Comprendo. ¿Qué le preocupa del precio? Le puedo ofrecer un descuento los primeros meses como promoción.\nCLIENTE: No, gracias, quiero comparar con otro operador primero.\nASESOR: Perfecto, quedo atento a su decisión. Gracias por su tiempo.",
+  "gold": {
+   "saludo": "SI",
+   "cobertura": "SI",
+   "actitud": "SI",
+   "sondeo": "SI",
+   "escucha": "SI",
+   "beneficios": "SI",
+   "alternativa": "SI",
+   "objeciones": "SI",
+   "aseguramiento": "No Aplica",
+   "informacion": "No Aplica",
+   "cierre": "NO",
+   "prevalidacion": "No Aplica",
+   "inconcert": "No Aplica",
+   "portabilidad": "No Aplica",
+   "despedida": "No Aplica"
+  }
+ },
+ {
+  "id": "DEMO-4",
+  "titulo": "No venta: objeción mal manejada (caso Deficiente)",
+  "es_venta": false,
+  "datos_sistema": {},
+  "transcripcion": "ASESOR: Buenas tardes, le habla Rosa de WIN.\nCLIENTE: Hola, vi una promoción de internet y quería saber el precio.\nASESOR: Sí, tengo el plan de 200 Mbps a 99 soles.\nCLIENTE: Uy, es muy caro, ya tengo otro operador más barato y no me interesa mucho.\nASESOR: Ya, entonces nada. Cualquier cosa nos llama.\nCLIENTE: Ok, chau.\nASESOR: Chau.",
+  "gold": {
+   "saludo": "SI",
+   "cobertura": "NO",
+   "actitud": "NO",
+   "sondeo": "NO",
+   "escucha": "NO",
+   "beneficios": "NO",
+   "alternativa": "NO",
+   "objeciones": "NO",
+   "aseguramiento": "No Aplica",
+   "informacion": "No Aplica",
+   "cierre": "NO",
+   "prevalidacion": "No Aplica",
+   "inconcert": "No Aplica",
+   "portabilidad": "No Aplica",
+   "despedida": "No Aplica"
+  }
+ },
+ {
+  "id": "DEMO-5",
+  "titulo": "Sin contacto (nadie responde)",
+  "es_venta": null,
+  "datos_sistema": {},
+  "transcripcion": "ASESOR: Buenas tardes, ¿aló?\nASESOR: ¿Aló, me escucha?",
+  "gold": {
+   "saludo": "Sin contacto",
+   "cobertura": "Sin contacto",
+   "actitud": "Sin contacto",
+   "sondeo": "Sin contacto",
+   "escucha": "Sin contacto",
+   "beneficios": "Sin contacto",
+   "alternativa": "Sin contacto",
+   "objeciones": "Sin contacto",
+   "aseguramiento": "Sin contacto",
+   "informacion": "Sin contacto",
+   "cierre": "Sin contacto",
+   "prevalidacion": "Sin contacto",
+   "inconcert": "Sin contacto",
+   "portabilidad": "Sin contacto",
+   "despedida": "Sin contacto"
+  }
+ }
+]

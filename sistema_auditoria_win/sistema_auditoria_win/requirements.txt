@@ -1,0 +1,6 @@
+# El sistema (servidor, motor, extractor, base) usa SOLO la biblioteca estándar de Python 3.9+.
+# Solo se necesita lo siguiente para recargar la base desde el Excel:
+pandas
+openpyxl
+# Opcional: transcripción de audio (ASR)
+# faster-whisper

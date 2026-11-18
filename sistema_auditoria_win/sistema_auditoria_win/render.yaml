@@ -1,0 +1,19 @@
+# Blueprint de Render: conecta el repositorio de GitHub y publica una URL. Cada "git push" a main redespliega solo.
+services:
+  - type: web
+    name: auditoria-win
+    runtime: docker
+    plan: free                 # para guardar datos de forma permanente cambia a "starter" y activa el disco de abajo
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: AUDITORIA_USUARIOS   # formato: admin=ClaveSegura|admin;maria=OtraClave|auditor
+        sync: false
+      - key: AUDITORIA_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: /data/auditorias.db
+    # disk:                       # requiere plan de pago; sin disco, las auditorías nuevas se pierden al redesplegar
+    #   name: datos
+    #   mountPath: /data
+    #   sizeGB: 1
