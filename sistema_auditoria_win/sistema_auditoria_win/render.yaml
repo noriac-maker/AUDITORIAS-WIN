@@ -3,6 +3,7 @@ services:
   - type: web
     name: auditoria-win
     runtime: docker
+    rootDir: sistema_auditoria_win/sistema_auditoria_win
     plan: free                 # para guardar datos de forma permanente cambia a "starter" y activa el disco de abajo
     healthCheckPath: /healthz
     autoDeploy: true
